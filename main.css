@@ -6,12 +6,13 @@ font-family: 'Montserrat Subrayada', sans-serif;
 */
 
 body {
-  font-family: 'VT323', monospace;
+  font-family: 'Prompt', sans-serif;
   font-weight: 300;
 }
 
-p {
-  color: red;
+header {
+  font-family: 'VT323', monospace;
+  font-weight: 300;
 }
 
 header .row,
@@ -27,4 +28,8 @@ header h1 {
 
 header h2 {
   font-size: 1.2 rem;
+}
+
+p {
+  color: red;
 }
