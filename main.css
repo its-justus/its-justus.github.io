@@ -1,7 +1,5 @@
 /*Font palette
 font-family: 'Prompt', sans-serif;
-font-family: 'VT323', monospace;
-font-family: 'Faster One', cursive;
 font-family: 'Montserrat Subrayada', sans-serif;
 */
 
@@ -11,9 +9,9 @@ body {
 }
 
 header {
-  font-family: 'VT323', monospace;
-  font-weight: 300;
+  padding: 20px;
 }
+
 
 header .row,
 footer .row {
@@ -21,9 +19,10 @@ footer .row {
   align-items: center;
 }
 
-header h1 {
-  font-weight: 400;
-  font-size: 3 rem;
+header h1 {          
+  font-family: 'Montserrat Subrayada', sans-serif;
+  font-weight: 500;
+  font-size: 3.5rem;
 }
 
 header p {
